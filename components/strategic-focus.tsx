@@ -44,17 +44,18 @@ export default function SignatureStrengths() {
           {strengths.map((item, index) => (
             <div
               key={index}
-              className="relative rounded-2xl border border-white/20 bg-white/10 
+              className="relative overflow-hidden rounded-2xl border border-white/20 bg-white/10 
                          backdrop-blur-xl shadow-[0_4px_25px_rgba(20,28,255,0.15)] 
                          hover:shadow-[0_8px_35px_rgba(20,28,255,0.25)] 
-                         p-6 text-left transition-all duration-300 hover:-translate-y-1"
+                         p-6 text-left transition-all duration-300 hover:-translate-y-1 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url(/back-grid.jpg)" }}
             >
               {/* Glow gradient ring */}
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/10 opacity-40 blur-2xl"></div>
+              <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-primary/10 to-secondary/10 opacity-40 blur-2xl"></div>
 
               {/* Card content */}
               <div className="relative z-10">
-                <div className="bg-gradient-to-br from-primary to-secondary w-10 h-10 rounded-full 
+                <div className="bg-linear-to-br from-primary to-secondary w-10 h-10 rounded-full 
                                 flex items-center justify-center mb-4 shadow-md">
                   {item.icon}
                 </div>

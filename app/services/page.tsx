@@ -107,9 +107,10 @@ export default function Services() {
               key={i}
               whileHover={{ y: -6, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="p-6 bg-white  rounded-2xl shadow-md hover:shadow-xl border border-gray-200  items-center "
+              className="relative overflow-hidden p-6 bg-white/90 rounded-2xl shadow-md hover:shadow-xl border border-gray-200 items-center bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url(/back-grid.jpg)" }}
             >
-              <div className="text-white mx-auto mb-4 bg-gradient-to-br from-[#0E0066] to-[#2014FF] w-fit p-2 rounded-full items-center">
+              <div className="text-white mx-auto mb-4 bg-linear-to-br from-[#0E0066] to-[#2014FF] w-fit p-2 rounded-full items-center">
                 {item.icon}
               </div>
               <h3 className="font-semibold text-lg mb-2 text-[#0E0066]">
@@ -139,7 +140,7 @@ export default function Services() {
               whileHover={{ scale: 1.01 }}
               className="group bg-white  border border-gray-200  rounded-xl p-6 flex flex-col sm:flex-row gap-4 items-start drop-shadow-lg"
             >
-              <div className="flex-shrink-0 h-10 w-10 rounded-full bg-[#2014FF] group-hover:bg-primary text-white flex items-center justify-center font-bold">
+              <div className="shrink-0 h-10 w-10 rounded-full bg-[#2014FF] group-hover:bg-primary text-white flex items-center justify-center font-bold">
                 {step.step}
               </div>
               <div>
@@ -156,7 +157,7 @@ export default function Services() {
       </section>
 
       {/* Why Clients Choose */}
-      <section className="py-20 px-6 md:px-12 bg-gradient-to-br from-[#0E0066] to-[#2014FF] text-white text-center">
+  <section className="py-20 px-6 md:px-12 bg-linear-to-br from-[#0E0066] to-[#2014FF] text-white text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-2">
           Why Clients Choose Prime Capital
         </h2>
@@ -171,7 +172,7 @@ export default function Services() {
               key={i}
               whileHover={{ y: -4, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="bg-white/20 backdrop-blur-lg rounded-2xl p-6 border-[1px] border-white/20"
+              className="bg-white/20 backdrop-blur-lg rounded-2xl p-6 border border-white/20"
             >
               <div className="mb-4 flex justify-center bg-white/10 backdrop-blur-lg w-fit p-2 rounded-full text-white mx-auto">
                 {item.icon}
@@ -185,7 +186,8 @@ export default function Services() {
 
       {/* CTA */}
       <section className="py-16 px-6 md:px-12 text-center">
-        <div className="max-w-3xl mx-auto  rounded-2xl p-10 border border-[#DAD9F280] shadow drop-shadow-xl ">
+        <div className="relative overflow-hidden max-w-3xl mx-auto bg-white/90 rounded-2xl p-10 border border-[#DAD9F280] shadow drop-shadow-xl bg-cover bg-center bg-no-repeat"
+             style={{ backgroundImage: "url(/back-grid.jpg)" }}>
           <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-[#0E0066]">
             Partner with Prime Capital to Shape Ethiopia&apos;s Capital Market
             Future
@@ -195,7 +197,7 @@ export default function Services() {
             objectives and drive sustainable growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-6 py-2 bg-gradient-to-r from-[#0E0066] to-[#2014FF] text-white rounded-full  hover:scale-105 transition transform duration-200 ease-in-out">
+            <button className="px-6 py-2 bg-linear-to-r from-[#0E0066] to-[#2014FF] text-white rounded-full  hover:scale-105 transition transform duration-200 ease-in-out">
               Contact Us
             </button>
             <button className="px-6 py-2 border border-[#0E0066] text-[#0E0066] rounded-full   hover:scale-105 transition transform duration-200 ease-in-out">

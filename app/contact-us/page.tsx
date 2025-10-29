@@ -53,16 +53,17 @@ export default function Contact() {
               key={i}
               whileHover={{ y: -6, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="group p-6 bg-white rounded-2xl shadow-md hover:shadow-xl border border-gray-200 "
+              className="relative overflow-hidden group p-6 bg-white/90 rounded-2xl shadow-md hover:shadow-xl border border-gray-200 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url(/back-grid.jpg)" }}
             >
-              <div className="mb-4 mx-auto inline-flex h-12 w-12 items-center justify-center rounded-full text-white bg-gradient-to-br from-[#0E0066] to-[#2014FF] shadow-sm transition-transform group-hover:scale-105">
+              <div className="mb-4 mx-auto inline-flex h-12 w-12 items-center justify-center rounded-full text-white bg-linear-to-br from-[#0E0066] to-[#2014FF] shadow-sm transition-transform group-hover:scale-105">
                 {c.icon}
               </div>
               <div className="font-semibold text-[#0E0066]">{c.title}</div>
               {c.href ? (
                 <a
                   href={c.href}
-                  className="mt-2 block text-sm text-[#504785] hover:underline break-words"
+                  className="mt-2 block text-sm text-[#504785] hover:underline wrap-break-word"
                 >
                   {c.line1}
                 </a>
