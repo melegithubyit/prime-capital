@@ -1,87 +1,158 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaTwitter,
+  FaFacebook,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="relative w-full text-white">
-      {/* Main footer content with secondary background */}
-      <div className="bg-secondary">
+      {/* Main footer section */}
+      <div className="bg-secondary"
+>
         <div className="py-12">
- <div className="mx-auto max-w-6xl px-6 py-12  grid grid-cols-1 sm:grid-cols-4 gap-8">
-          {/* Logo & description */}
-          <div className="flex flex-col gap-4">
-  {/* Logo and name */}
-  <div className=" pl-10 flex items-center text-white font-semibold text-lg select-none">
-    <div className="w-7 h-7 bg-white text-secondary font-bold text-base flex items-center justify-center rounded-md mr-2.5">
-      P
-    </div>
-    Prime Capital
-  </div>
+          <div className="mx-auto max-w-6xl px-6 py-12 grid grid-cols-1 sm:grid-cols-4 gap-8">
+            {/* Logo & description */}
+            <div className="flex flex-col gap-4">
+              {/* Logo and name */}
+              <div className="pl-10 flex items-center text-white font-semibold text-lg select-none">
+                <Link href="/">
+              <Image
+                src="/logoblack.png"
+                alt="Logo"
+                width={200}
+                height={100}
+                className="object-contain"
+              />
+            </Link>
+              </div>
 
-  {/* Description perfectly aligned with “Prime Capital” */}
-  <p className="text-sm text-white/80 pl-[calc(1.75rem+0.625rem)]">
-    Empowering Ethiopia&apos;s financial future through innovative investment banking solutions.
-  </p>
-</div>
+              {/* Description */}
+              <p className="text-sm text-white/80 pl-[calc(1.75rem+0.625rem)]">
+                Empowering Ethiopia&apos;s financial future through innovative
+                investment banking solutions.
+              </p>
+            </div>
 
+            {/* Quick Links */}
+            <div>
+              <h3 className="mb-4 font-semibold text-white">Quick Links</h3>
+              <ul className="flex flex-col gap-2 text-sm text-white/80">
+                <li>
+                  <Link href="#" className="hover:text-accent transition">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#about" className="hover:text-accent transition">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#services"
+                    className="hover:text-accent transition"
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#contact"
+                    className="hover:text-accent transition"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="mb-4 font-semibold">Quick Links</h3>
-            <ul className="flex flex-col gap-2 text-sm text-white/80">
-              <li><Link href="#">Home</Link></li>
-              <li><Link href="#about">About Us</Link></li>
-              <li><Link href="#services">Services</Link></li>
-              <li><Link href="#contact">Contact</Link></li>
-            </ul>
+            {/* Services */}
+            <div>
+              <h3 className="mb-4 font-semibold text-white">Services</h3>
+              <ul className="flex flex-col gap-2 text-sm text-white/80">
+                <li>Investment Banking</li>
+                <li>M&amp;A Advisory</li>
+                <li>Capital Markets</li>
+                <li>Corporate Restructuring</li>
+              </ul>
+            </div>
+
+            {/* Contact Section */}
+            <div>
+              <h3 className="mb-4 font-semibold text-white">Contact</h3>
+              <ul className="flex flex-col gap-3 text-sm text-white/90">
+                <li className="flex items-center gap-3">
+                  <div className="p-2 rounded-md bg-white/10 flex items-center justify-center hover:bg-accent/20 transition">
+                    <FaMapMarkerAlt className="text-accent text-base" />
+                  </div>
+                  <span>
+                    Kirkos Sub-City, Woreda 08, Addis Ababa, Ethiopia
+                  </span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="p-2 rounded-md bg-white/10 flex items-center justify-center hover:bg-accent/20 transition">
+                    <FaEnvelope className="text-accent text-base" />
+                  </div>
+                  <span className="hover:text-accent transition cursor-pointer">
+                    info@primecapital.com
+                  </span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="p-2 rounded-md bg-white/10 flex items-center justify-center hover:bg-accent/20 transition">
+                    <FaPhone className="text-accent text-base" />
+                  </div>
+                  <span>+251 (0) 116 629 000</span>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          {/* Services */}
-          <div>
-            <h3 className="mb-4 font-semibold">Services</h3>
-            <ul className="flex flex-col gap-2 text-sm text-white/80">
-              <li>Investment Banking</li>
-              <li>M&A Advisory</li>
-              <li>Capital Markets</li>
-              <li>Corporate Restructuring</li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="mb-4 font-semibold">Contact</h3>
-            <ul className="flex flex-col gap-2 text-sm text-white/80">
-              <li>📍 Kirkos Sub-City, Woreda 08, Addis Ababa, Ethiopia</li>
-              <li>✉️ info@primecapital.com</li>
-              <li>📞 +251 (0) 116 629 000</li>
-            </ul>
-          </div>
-          
+          <div className="w-full h-[1px] bg-white/20 mt-8"></div>
         </div>
-          <div className="w-full h-[1px] bg-white -left-5"></div>
-        </div>
-       
-
-       
-      
-
-      
       </div>
 
-      {/* Bottom section with gradient */}
-      <div className="bg-gradient-to-b from-secondary via-secondary to-accent/90 ">
-  <div  className="relative backdrop-blur-lg bg-white/5">
-    <div className="mx-auto max-w-6xl px-6 py-4 flex flex-col sm:flex-row justify-between items-center text-xs">
+      {/* Bottom section */}
+      <div className="bg-gradient-to-b from-secondary via-secondary to-accent/90">
+  <div className="relative backdrop-blur-lg bg-white/5">
+    {/* Add more padding and spacing here */}
+    <div className="mx-auto max-w-6xl px-6 py-8 flex flex-col sm:flex-row justify-between items-center text-xs">
       <p className="bg-gradient-to-r from-white/70 to-accent bg-clip-text text-transparent">
         © 2025 Prime Capital S.C. — All Rights Reserved
       </p>
-      <div className="flex gap-4 mt-2 sm:mt-0">
-        <Link href="#"><FaLinkedin className="h-4 w-4 hover:text-accent transition" /></Link>
-        <Link href="#"><FaTwitter className="h-4 w-4 hover:text-accent transition" /></Link>
-        <Link href="#"><FaFacebook className="h-4 w-4 hover:text-accent transition" /></Link>
+
+      {/* Social Icons */}
+      <div className="flex gap-4 mt-4 sm:mt-0">
+        <Link
+          href="#"
+          className="p-2.5 rounded-md bg-white/10 hover:bg-accent/20 transition flex items-center justify-center"
+        >
+          <FaLinkedin className="h-5 w-5 text-accent" />
+        </Link>
+        <Link
+          href="#"
+          className="p-2.5 rounded-md bg-white/10 hover:bg-accent/20 transition flex items-center justify-center"
+        >
+          <FaTwitter className="h-5 w-5 text-accent" />
+        </Link>
+        <Link
+          href="#"
+          className="p-2.5 rounded-md bg-white/10 hover:bg-accent/20 transition flex items-center justify-center"
+        >
+          <FaFacebook className="h-5 w-5 text-accent" />
+        </Link>
       </div>
     </div>
+
+    
+    <div className="h-10 sm:h-10"></div>
   </div>
 </div>
 

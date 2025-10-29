@@ -30,7 +30,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <ul className="hidden sm:flex items-center gap-8 text-sm text-white/80">
+          <ul className="hidden sm:flex items-center gap-8 text-sm text-white/80 pl-130">
             <li>
               <Link href="/" className="hover:text-white transition-colors">
                 Home
