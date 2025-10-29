@@ -1,33 +1,27 @@
 import Link from "next/link";
-import { ChevronDownIcon } from '@heroicons/react/24/solid';
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen w-full overflow-hidden  flex flex-col">
- 
+    <section className=" min-h-screen w-full overflow-hidden  flex flex-col">
       {/* Main Background */}
       <div
         className="absolute z-0 bg-[url('/herobg.png')] bg-cover bg-center mt-0 opacity-30 pointer-events-none"
         style={{
-          width: '900px',
-          height: '900px',
-          top: '-100px',
-          transform: 'rotate(10deg)',
-           transformOrigin: '0% 50%',
+          width: "900px",
+          height: "900px",
+          top: "-100px",
+          transform: "rotate(10deg)",
+          transformOrigin: "0% 50%",
         }}
       />
-      <div className="mt-10">
- <Navbar />
-      </div>
-       
+      <div className="mt-10"></div>
 
-    
       <div
         className="absolute top-0 right-0 z-0 h-[700px] w-[700px] bg-[url('/herobg.png')] bg-cover bg-right bg-no-repeat opacity-40 pointer-events-none"
         style={{
-       
-          transform: 'translateX(75%) rotate(100deg)',
+          transform: "translateX(75%) rotate(100deg)",
         }}
       />
 
@@ -40,7 +34,8 @@ export default function Hero() {
                 Empowering Ethiopia&apos;s Financial Future
               </h1>
               <p className="mx-auto mb-6 max-w-xl text-sm text-white/90 sm:text-base">
-                Prime Capital S.C. — Innovation, Integrity, and Excellence in Investment Banking
+                Prime Capital S.C. — Innovation, Integrity, and Excellence in
+                Investment Banking
               </p>
 
               {/* Button + Down Arrow */}
