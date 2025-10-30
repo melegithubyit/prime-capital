@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaEnvelope,
   FaPhone,
+  FaArrowUp,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -130,6 +131,15 @@ export default function Footer() {
               © {new Date().getFullYear()} Prime Capital S.C. — All Rights
               Reserved
             </p>
+
+            {/* Scroll to Top Button */}
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="p-3 rounded-full bg-white/10 hover:bg-accent/20 transition flex items-center justify-center mt-4 sm:mt-0"
+              aria-label="Scroll to top"
+            >
+              <FaArrowUp className="h-5 w-5 text-accent" />
+            </button>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4 sm:mt-0">
