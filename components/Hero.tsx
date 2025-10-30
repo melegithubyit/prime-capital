@@ -26,8 +26,8 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-4 py-24 text-white">
-        <div className="relative w-full max-w-3xl">
+      <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-4 py-24 text-white mt-[10vh]">
+        <div className="relative w-full max-w-3xl mx-auto">
           <div className="relative rounded-2xl shadow-[0_0_15px_rgba(20,28,255,0.4),inset_0_0_10px_rgba(20,28,255,0.2)] bg-secondary/0 p-8 text-center shadow-2xl backdrop-blur-[4px] before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-br before:from-[secondary]/15 before:to-[secondary]/10 before:content-['']">
             <div className="relative z-10">
               <h1 className="mb-4 text-4xl font-extrabold leading-tight sm:text-5xl">

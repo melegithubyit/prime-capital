@@ -154,14 +154,11 @@ const boardMembers = [
     ],
   },
   {
-    name: "Leake Melaku",
-    role: "Board Director",
-    edu: "MBA (AAU), BA in Management (Haramaya University)",
-    img: "./team.png",
-    socialLinks: [
-      { platform: "linkedin", url: "https://linkedin.com/in/mukemilbedru" },
-      { platform: "email", url: "mailto:mukemil@primecapital.com" },
-    ],
+    name: "Behailu Aregahgn",
+    role: "Board Secretary",
+    edu: "MBA, BA in Management",
+    img: "./behailu.png",
+    socialLinks: [{ platform: "twitter", url: "https://twitter.com/tewodros" }],
   },
   {
     name: "Kalkidan Niguse",
@@ -178,11 +175,14 @@ const boardMembers = [
     socialLinks: [{ platform: "twitter", url: "https://twitter.com/tewodros" }],
   },
   {
-    name: "Behailu Aregahgn",
-    role: "Board Secretary",
-    edu: "MBA, BA in Management",
-    img: "./behailu.png",
-    socialLinks: [{ platform: "twitter", url: "https://twitter.com/tewodros" }],
+    name: "Leake Melaku",
+    role: "Board Director",
+    edu: "MBA (AAU), BA in Management (Haramaya University)",
+    img: "./placeholder.png",
+    socialLinks: [
+      { platform: "linkedin", url: "https://linkedin.com/in/mukemilbedru" },
+      { platform: "email", url: "mailto:mukemil@primecapital.com" },
+    ],
   },
 ];
 

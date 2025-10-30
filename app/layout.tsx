@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-primary text-white min-h-screen ">
-        <div className="fixed inset-x-0 top-0 z-50">
+        <div className="fixed inset-x-0 top-0 z-50 mt-5">
           <Navbar />
         </div>
         {children}
