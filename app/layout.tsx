@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+// import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Providers } from "@/wrappers/providers";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +21,7 @@ export default function RootLayout({
         <div className="fixed inset-x-0 top-0 z-50 mt-5">
           <Navbar />
         </div>
-        {children}
+        <Providers>{children}</Providers>
         <Footer />
       </body>
     </html>

@@ -33,7 +33,7 @@ export default function PrimeCapitalInfo() {
         </div>
 
         <div className="flex-shrink-0 relative w-full md:w-[380px] lg:w-[450px] flex justify-center">
-          <div className="w-full h-64 md:h-80 bg-white rounded-3xl shadow-lg border border-gray-100 transform rotate-3 hover:rotate-0 transition-transform duration-500 ease-out overflow-hidden">
+          <div className="w-full h-64 md:h-80 bg-white transform rotate-3 hover:rotate-0 transition-transform duration-500 ease-out overflow-hidden">
             <img
               src="/home.png"
               alt="Prime Capital Building"

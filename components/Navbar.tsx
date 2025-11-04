@@ -51,6 +51,16 @@ export default function Navbar() {
                   Services
                 </Link>
               </li>
+              <li>
+                <Link href="/vacancy" className="hover:text-white transition-colors">
+                  Jobs
+                </Link>
+              </li>
+              <li>
+                <Link href="/news" className="hover:text-white transition-colors">
+                  Blogs
+                </Link>
+              </li>
               {/* <li>
               <Link
                 href="/contact-us"
@@ -102,6 +112,18 @@ export default function Navbar() {
               className=" font-semibold py-1 px-2 rounded hover:bg-white/10 transition"
             >
               Services
+            </Link>
+            <Link
+              href="/vacancy"
+              className=" font-semibold py-1 px-2 rounded hover:bg-white/10 transition"
+            >
+              Jobs
+            </Link>
+            <Link
+              href="/news"
+              className=" font-semibold py-1 px-2 rounded hover:bg-white/10 transition"
+            >
+              Blogs
             </Link>
             {/* <Link
               href="/contact"
