@@ -4,7 +4,7 @@ import { NewsCard } from "./news-card";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { usePublishedNews } from "@/hooks/queries/useNewsQuery";
-import { ParagraphBlock, Block } from "@/services/news";
+import { ParagraphBlock, Block, Blog } from "@/services/news";
 
 export function NewsSection({ type = "related" }: { type?: "related" | "all" }) {
   const router = useRouter();
@@ -70,10 +70,10 @@ export function NewsSection({ type = "related" }: { type?: "related" | "all" }) 
             </p>
           </div>
         )}
-        {blogs.map((blog: any, idx: number) => {
-          const title = blog.title.en;
+        {blogs.map((blog: Blog) => {
+          const title = (blog.title?.en || blog.title) as string;
           const paragraph = blog.blocks.find((b: Block) => b.type === "paragraph") as ParagraphBlock | undefined;
-          const description = paragraph ? paragraph.content.en : "";
+          const description = paragraph ? ((paragraph.content?.en || paragraph.content) as string) : "";
           return (
             <div key={blog._id}>
               <Link href={`/news/${blog._id}`} className="block h-full">

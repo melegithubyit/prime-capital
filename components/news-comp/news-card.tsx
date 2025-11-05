@@ -13,12 +13,14 @@ export function NewsCard({ title, description, image, category, date }: NewsCard
   return (
   <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-pointer group h-full flex flex-col bg-blue-200 border border-blue-200">
       <div className="relative aspect-[4/3] overflow-hidden">
-        <Image
-          src={image || "/placeholder.png"}
-          alt={title}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-300"
-        />
+        {image && (
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        )}
       </div>
 
       <CardContent className="p-4 flex flex-col flex-1 text-gray-900">
