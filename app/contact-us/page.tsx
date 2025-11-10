@@ -28,7 +28,7 @@ export default function Contact() {
                 <span className="mt-1 text-[#2014FF]"><Mail size={20} /></span>
                 <div>
                   <div className="font-semibold text-[#0E0066]">Email Us</div>
-                  <a href="mailto:Info@primecapitalsc.com" className="text-sm text-[#504785] hover:underline">primecapitalsc.com</a>
+                  <a href="mailto:Info@primecapitalsc.com" className="text-sm text-[#504785] hover:underline">Info@primecapitalsc.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
