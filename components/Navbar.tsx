@@ -44,7 +44,7 @@ export default function Navbar() {
     <nav className={`w-full bg-linear-to-br from-[#01016F] via-[#141CFF] to-[#2014FF] backdrop-blur-2xl px-6 md:px-10 lg:px-16 py-3 flex items-center justify-between transition-shadow duration-300 ${scrolled ? 'shadow-lg' : 'shadow-none'}`}>
         
           <div className="flex items-center gap-3">
-            <Link href="#">
+            <Link href="/">
               <Image
                 src="/logoblack.png"
                 alt="Logo"
