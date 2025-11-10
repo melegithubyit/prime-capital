@@ -9,7 +9,7 @@ export default function VisionMissionSection() {
       <div className="max-w-6xl mx-auto text-center space-y-12">
         {/* Header */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary to-secondary/50 bg-clip-text text-transparent">
+          <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Guided by Vision, Driven by Mission
           </h2>
         </div>
@@ -49,7 +49,7 @@ export default function VisionMissionSection() {
 
         {/* Strategic Excellence Section */}
         <div className="space-y-6">
-          <h2 className="text-2xl md:text-3xl font-semibold text-primary">
+          <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Strategic Excellence at the Heart of Ethiopia&apos;s Transformation
           </h2>
           <p className="text-gray-600  max-w-3xl mx-auto leading-relaxed">

@@ -34,11 +34,11 @@ export function NewsSection({ type = "related" }: { type?: "related" | "all" }) 
       <div className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-4 mb-4 sm:mb-6">
         <div>
           {type === "all" ? (
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0E0066]">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-textPrimary">
               News & Events
             </h2>
           ) : (
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0E0066]">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-textPrimary">
               Latest Articles
             </h2>
           )}
@@ -62,7 +62,7 @@ export function NewsSection({ type = "related" }: { type?: "related" | "all" }) 
             <div className="flex items-center justify-center mb-4 text-blue-600">
               <AlertCircle className="w-10 h-10 sm:w-12 sm:h-12" />
             </div>
-            <h3 className="text-base sm:text-lg font-semibold mb-2 text-center text-[#0E0066]">
+            <h3 className="text-base sm:text-lg font-semibold mb-2 text-center text-textPrimary">
               No News Available
             </h3>
             <p className="text-gray-700 text-xs sm:text-sm text-center max-w-md">

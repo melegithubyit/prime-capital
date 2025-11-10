@@ -173,7 +173,7 @@ export default function OurTeamPage() {
       {/* Board of Directors */}
       <section className="py-20 pt-10 px-6 md:px-12 bg-white">
         <motion.div {...fadeInUp} className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E0066]">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Board of Directors
           </h2>
           <p className="text-md text-[#504785] mt-4 max-w-2xl mx-auto leading-tight">
@@ -242,7 +242,7 @@ export default function OurTeamPage() {
       {/* Executive Management */}
       <section className="py-20 px-6 md:px-12 bg-[#F9FAFB]">
         <motion.div {...fadeInUp} className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E0066]">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Founding Members
           </h2>
           <p className="text-md text-[#504785] mt-2 max-w-2xl mx-auto">
@@ -263,7 +263,7 @@ export default function OurTeamPage() {
         </motion.div>
 
         <div className="mt-40 text-center max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E0066]">Executive Management</h2>
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Executive Management</h2>
           <p className="text-md text-[#504785] mt-2 max-w-2xl mx-auto leading-tight">
             Experienced leaders driving operational excellence and strategic innovation.
           </p>

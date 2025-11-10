@@ -88,7 +88,7 @@ export default function Services() {
     <main className="min-h-screen w-full bg-white  text-gray-900">
       {/* What We Offer */}
       <section className="py-20 px-6 md:px-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#0E0066]">
+        <h2 className="text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           What We Offer
         </h2>
         <p className="text-gray-600 text-[#0E0066] mb-12">
@@ -107,7 +107,7 @@ export default function Services() {
               <div className="text-white mx-auto mb-4 bg-linear-to-br from-[#0E0066] to-[#2014FF] w-fit p-2 rounded-full items-center">
                 {item.icon}
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-[#0E0066]">
+              <h3 className="font-semibold text-lg mb-2 text-textPrimary">
                 {item.title}
               </h3>
               <p className="text-sm text-[#504785]  leading-relaxed">
@@ -120,7 +120,7 @@ export default function Services() {
 
       {/* How We Work */}
       <section className="py-20 px-6 md:px-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-[#0E0066]">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           How We Work
         </h2>
         <p className="text-center mb-12 text-[#504785]">
@@ -138,7 +138,7 @@ export default function Services() {
                 {step.step}
               </div>
               <div>
-                <h4 className="font-semibold mb-1 text-[#0E0066]">
+                <h4 className="font-semibold mb-1 text-textPrimary">
                   {step.title}
                 </h4>
                 <p className="text-sm text-[#504785] leading-relaxed">
@@ -184,7 +184,7 @@ export default function Services() {
           className="relative overflow-hidden max-w-3xl mx-auto bg-white/90 rounded-2xl p-10 border border-[#DAD9F280] shadow drop-shadow-xl bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url(/back-grid.jpg)" }}
         >
-          <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-[#0E0066]">
+          <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-textPrimary">
             Partner with Prime Capital to Shape Ethiopia&apos;s Capital Market
             Future
           </h3>

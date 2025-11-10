@@ -33,8 +33,8 @@ export default function SignatureStrengths() {
   return (
     <section className="w-full py-16 bg-gradient-to-b from-[#F9FAFF] to-[#EEF2FF]">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-[#0B42FF]">
-          Our <span className="text-[#1E3AFF]">Signature Strengths</span>
+        <h2 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          Our <span className="">Signature Strengths</span>
         </h2>
         <p className="text-gray-600 mt-2">
           Four pillars that define our commitment to Ethiopia’s financial

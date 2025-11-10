@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Link from "next/link";
+import ListedCompaniesHero from "@/components/listed-companies-hero";
 import MarketPrices from "@/components/MarketPrices";
 
 interface CompanyData {
@@ -57,11 +58,8 @@ export default function ResourcesPage() {
   return (
     <main className="min-h-screen w-full bg-white text-gray-900">
       <MarketPrices />
-      <div className="max-w-5xl mx-auto px-4 py-20">
-        {/* Page Title */}
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-16 text-primary">
-          ESX LISTED COMPANIES
-        </h1>
+      <ListedCompaniesHero />
+      <div className="max-w-5xl mx-auto px-4 py-12 md:py-16">
 
         {/* Accordion */}
         <div className="space-y-4">
