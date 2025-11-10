@@ -43,13 +43,13 @@ const MarketPrices: React.FC = () => {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="mx-auto flex max-w-5xl items-center px-4">
-        <div className="text-lg font-semibold whitespace-nowrap pr-4 border-r border-gray-300 mr-6 text-[#002856]">
+      <div className="mx-auto flex max-w-5xl items-center px-2 md:px-4">
+        <div className="text-base md:text-lg font-semibold whitespace-nowrap pr-2 md:pr-4 border-r border-gray-300 mr-3 md:mr-6 text-[#002856]">
           ESX Market Prices
         </div>
-        <div className="flex flex-1 gap-8">
+        <div className="flex flex-1 gap-4 md:gap-8 overflow-x-auto md:overflow-visible">
           {PRICE_ITEMS.map((p) => (
-            <div key={p.name} className="flex items-center gap-2 min-w-[150px]">
+            <div key={p.name} className="flex items-center gap-2 min-w-[120px] md:min-w-[150px] shrink-0">
               <span className="font-bold text-[#002856]">{p.name}</span>
               {/* Value ticker (all animate together) */}
               <div className="relative h-6 overflow-hidden w-fit">

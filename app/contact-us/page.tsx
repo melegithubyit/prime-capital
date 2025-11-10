@@ -35,7 +35,7 @@ export default function Contact() {
                 <span className="mt-1 text-[#2014FF]"><Phone size={20} /></span>
                 <div>
                   <div className="font-semibold text-[#0E0066]">Call Us</div>
-                  <a href="tel:+251110000000" className="text-sm text-[#504785] hover:underline">+251 11 XXX XXXX</a>
+                  <a href="tel:+251 (0)91122 2911" className="text-sm text-[#504785] hover:underline">+251 11 XXX XXXX</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
