@@ -35,26 +35,27 @@ const boardMembers: MemberType[] = [
   {
     name: "Mukemil Bedru",
     role: "Board Chairperson",
-    edu: "MBA • BSc",
+    edu: "MBA, BA in Management",
     img: "/mukemil.png",
     education: [
       "MBA — Addis Ababa University",
       "BA in Management — Haramaya University",
     ],
     exposure: [
-      "17+ years of cross-continental leadership in consulting, finance, and governance",
-      "Managing Partner of Elegance Group; former Chair at Hijra Bank and Credoks Tech Group",
-      "Senior leadership background at Deloitte and academic role at Addis Ababa University",
-      "Led major restructuring projects for financial institutions across Africa, the Middle East, Europe, and North America",
+      "Over 17 years in consulting, finance, real estate, academia, and governance",
+      "Chairperson of the Board and Managing Partner at Elegance Group, overseeing consulting, real estate, and trading",
+      "Former Chairman at Hijra Bank (2020-2023); current Chairman at Credoks Tech Group (2023-Present)",
+      "Senior roles at Deloitte as Human Capital Manager and academic at Addis Ababa University",
+      "Led restructuring and advisory projects for banks, MFIs, and corporates in Africa, Middle East, Europe, and North America",
+      "Expertise in corporate governance, strategic management, organizational design, and Islamic finance",
     ],
-    qualifications: "MBA (AAU), BA in Management (Haramaya University)",
-    occupation: "Managing Partner, Elegance Group",
-    bio: "17+ years in consulting, finance, and governance. Former Chair, Hijra Bank. Expertise in corporate strategy and financial sector leadership.",
+    occupation: "Chairperson and Managing Partner, Elegance Group; Chairman, Credoks Tech Group",
+    bio: "Seasoned executive with 17+ years in finance and governance. Co-founder of Hijra Bank; expertise in strategic direction and financial sector growth in Ethiopia.",
   },
   {
     name: "Tewodros M. Delelegn",
     role: "V/Board Chairperson",
-    edu: "MSc • BA",
+    edu: "MSc in Telecom Business Administration, BA in Management",
     img: "/tewdros.png",
     education: [
       "MSc in Telecom Business Administration — Addis Ababa University",
@@ -73,9 +74,9 @@ const boardMembers: MemberType[] = [
   {
     name: "Habib Mohammed",
     role: "Board Member",
-    edu: "MSc • BSc",
+    edu: "MBA in International Business, BA in Accounting",
     img: "/habib.png",
-    education: [
+    education: [  
       "MBA in International Business — University of Greenwich (UK)",
       "BA in Accounting — Jimma University",
       "Fellow Chartered Certified Accountant (FCCA)",
@@ -91,7 +92,7 @@ const boardMembers: MemberType[] = [
   {
     name: "Behailu Aregahgn",
     role: "Board Member",
-    edu: "MBA, BA in Management",
+    edu: "MBA in International Business, BA in Economics",
     img: "/behailu.jpg",
     education: [
       "MBA in International Business — Mekelle University",
@@ -102,39 +103,47 @@ const boardMembers: MemberType[] = [
       "Representative of Global DWC LLC in Ethiopia and East Africa",
       "Drove business development with Ethio Telecom, Ingenico, and UROVO",
       "Former COO at Thabet Technology PLC; managed major enterprise projects including National Bank’s EATS system at Ethio Telecom",
+      "Director of Operations & Business Development at WebSprix IT Solutions PLC",
+      "Served Ethiotelecom as key Account Manager; managed enterprise and government projects"
     ],
   },
   {
-    name: "Kalkidan Niguse",
+    name: "Kalkidan Nigusse",
     role: "Board Member",
-    edu: "MBA, BA in Management",
+    edu: "Master’s in Marketing Management, Master’s in Development Management, BA in Economics",
     img: "/kalkidan.png",
     education: [
       "Master’s in Marketing Management — Addis Ababa University",
-      "Master’s in Development Management — University of Torino (Italy)",
+      "Master’s in Development Management — University of Torino (ITC, Italy)",
       "BA in Economics — Addis Ababa University",
     ],
     exposure: [
       "Managing Director at iConnect Digital Services",
-      "Board Member at NEO MFI and Credoks Digital Services",
-      "Senior leadership at Ethio Telecom; led nationwide rebranding",
-      "Led marketing strategy and international business development",
+      "Board Member at NEO Microfinance Institution (MFI) and Credoks Digital Services PLC",
+      "Contributes to strategic leadership and organizational development",
+      "Over 15 years in telecom and digital service sectors",
+      "Senior leadership at Ethio Telecom; key role in nationwide rebranding and major initiatives",
+      "Led marketing strategy, research, intelligence, and international business development",
+      "Drove growth and innovation",
+      "Expertise in strategic management, marketing, project leadership, and business development",
     ],
   },
   {
     name: "Banteyrga Kebede",
     role: "Board Member",
-    edu: "MBA, BA in Management",
+    edu: "MBA in Telecom Business Administration, BA in Management",
     img: "/banteyrga.png",
     education: [
       "MBA in Telecom Business Administration",
       "BA in Management",
     ],
     exposure: [
-      "Managing Partner at Chartered Advisory Services PLC; Board Member at NEO MFI",
-      "15+ years leading in telecom, manufacturing, and services",
-      "CEO and Managing Partner roles driving restructuring and operational efficiency",
-      "Proven record in achieving ISO certifications and profitability growth",
+      "Managing Partner at Chartered Advisory Services PLC; Board Member at NEO Microfinance Institution (MFI), contributing to strategic planning, governance, and organizational growth",
+      "Over 15 years of leadership experience across telecom, manufacturing, and service sectors",
+      "Held senior positions including CEO, Senior Officer, and Managing Partner, leading initiatives in organizational restructuring, operational efficiency, and new product development",
+      "Successfully driven profitability, achieved ISO certifications, and led HR transformation programs covering recruitment, training, and performance management",
+      "Expertise in leadership, operations, finance, and telecom innovation",
+      "Recognized for results-driven approach and commitment to excellence",
     ],
   }
 ];
@@ -143,7 +152,7 @@ const execMembers: MemberType[] = [
   {
     name: "Habib Mohammed",
     role: "Chief Executive Officer",
-    edu: "MSc • BSc",
+    edu: "MBA in International Business, BA in Accounting, FCCA, CISI",
     img: "/habib.png",
     education: [
       "MBA in International Business — University of Greenwich (UK)",
@@ -152,69 +161,90 @@ const execMembers: MemberType[] = [
       "Certified Member — Chartered Institute for Securities & Investment (CISI)",
     ],
     exposure: [
-      "20+ years of leadership in banking and industry",
-      "Vice President for Banking Business at Hijra Bank; former CEO at Yekatit Paper Converting PLC",
-      "Over a decade at NIB International Bank, rising to Director levels",
-      "Advisor and trainer for World Bank Group (IFC) and National Bank of Ethiopia on IFRS and capital markets",
+      "Over 20 years in banking, finance, and corporate management",
+      "CEO and Executive Board Member, guiding strategic growth, governance, and financial management",
+      "Vice President for Banking Business at Hijra Bank (2021-2025); oversaw treasury, credit risk, and foreign exchange operations",
+      "Former CEO at Yekatit Paper Converting PLC (2015-2021); achieved ISO certification, IFRS adoption, and strong business growth",
+      "Over a decade at NIB International Bank; advanced to Director of Domestic Banking and Director of Credit Management",
+      "Advisor and trainer for World Bank Group (IFC) on IFRS adoption",
+      "Current Board Member at Chartered Advisory Services PLC and Best Western Plus Addis Ababa",
     ],
   },
   {
     name: "Haileleul Kassa",
     role: "Chief Risk and Compliance Officer",
-    edu: "",
+    edu: "MSc in International Business, BA in Economics",
     img: "/haileleul.jpg",
     education: [
       "MSc in International Business",
       "BA in Economics",
-      "Certifications from CISI and CFI; ongoing ACCA studies",
+      "Certifications from CISI, CFI, and Udacity; ongoing ACCA studies",
     ],
     exposure: [
-      "Director of Corporate Strategy at Ayat Group S.C. leading five-year strategy and transformation",
-      "Senior roles at Hijra Bank leading strategic planning, change management, and corporate investment frameworks",
+      "Over 14 years in banking, corporate strategy, and performance management",
+      "Director of Corporate Strategy at Ayat Group S.C.; leads five-year strategy, performance systems, and transformation",
+      "Senior Manager of Strategy Planning & Monitoring at Hijra Bank; led strategic planning and change management",
+      "Senior Manager of Corporate Investment at Hijra Bank; developed corporate performance frameworks",
+      "Earlier roles at Hibret Bank, Nib International Bank, and Global Bank Ethiopia in trade finance, credit, and planning",
+      "Specializes in corporate strategy, investment analysis, capital market operations, and performance management",
     ],
   },
   {
     name: "Yonas Alemayehu",
     role: "Chief Technology Officer",
-    edu: "",
+    edu: "MBA in Project Management, BSc in Electrical Engineering",
     img: "/yonas.jpg",
     education: [
       "MBA in Project Management — Columbia Southern University (USA)",
       "BSc in Electrical Engineering — Mekelle University",
     ],
     exposure: [
-      "Co-Founder & CEO of TelePort Technologies Plc; designed large-scale digital systems handling multi-billion ETB transactions (incl. Telebirr)",
-      "Previous leadership roles at Ericsson and Zain Telecom; expertise in telecom architecture and AI integration",
+      "Over 15 years in ICT and telecom platform development across Ethiopia and East Africa",
+      "Co-Founder and CEO of TelePort Technologies Plc; led design/delivery of large-scale digital/telecom systems",
+      "Key projects: WeCare (digital health platform), TMS (Telebirr Management System), VMS (Voucher Management System), ePAY (EVD platform) handling multi-billion ETB transactions",
+      "Expertise in Intelligent Network (IN) systems, digital service architecture, telecom billing, and enterprise SaaS",
+      "Leadership roles at Ericsson and Zain Telecom",
+      "Recognized for hands-on leadership in AI integration, financial systems, and real-time telecom architecture",
+      "Certifications from Ericsson Academy, Alibaba Business School, and Sun Microsystems",
     ],
   },
   {
     name: "Muluken Asrat",
     role: "Chief Financial Officer",
-    edu: "",
+    edu: "BA in Accounting, Certificates in IFRS and financial reporting",
     img: "/muluken.jpg",
     education: [
       "BA in Accounting — Jimma University",
       "Certificates in IFRS and financial reporting",
     ],
     exposure: [
-      "Deputy CEO for Planning, Trade & Finance at Aleta Land Group, managing group-wide financial operations and corporate strategy",
-      "Senior finance roles at OLAM International and Ethiopian Roads Authority (financial reporting, budgeting, ERP implementation)",
+      "Over 22 years in strategic finance, corporate planning, treasury management, ERP systems, and financial governance",
+      "CFO leading financial strategy, investment evaluation, and organizational transformation",
+      "Deputy CEO for Planning, Trade & Finance at Aleta Land Group (2017-2022); managed group-wide financial operations, investment planning, and corporate strategy",
+      "Senior finance roles at Aleta Land Group, OLAM International, and Ethiopian Roads Authority; led financial reporting, budgeting, and ERP implementation",
+      "Skilled in financial leadership, project finance, compliance, streamlining operations, and driving efficiency",
     ],
   },
   {
     name: "Getahun Worku",
     role: "Legal Advisor",
-    edu: "",
+    edu: "LL.M. in Human Rights, LL.B., MBA in Governance and Development",
     img: "/getahun.jpg",
     education: [
       "LL.M. in Human Rights",
       "LL.B.",
       "MBA in Governance and Development",
+      "PRINCE2 Project Management Certification",
       "Currently pursuing a Ph.D. — Addis Ababa University",
     ],
     exposure: [
-      "Legal Advisor and Assistant Manager at Korea International Cooperation Agency (KOICA); led contract negotiations and resource mobilization",
-      "Public intellectual authoring weekly legal columns for The Reporter Newspaper; Law Instructor",
+      "Over 24 years in corporate law, arbitration, and legal advisory across Ethiopia's public, private, and development sectors",
+      "Chief Legal Advisor and Board Member; provides strategic legal guidance, governance oversight, and regulatory compliance",
+      "Senior roles including Legal Advisor and Assistant Manager at Korea International Cooperation Agency (KOICA); led contract negotiations, project management, and resource mobilization",
+      "Columnist for The Reporter Newspaper; authors weekly articles on legal and judicial matters",
+      "Law Instructor; mentors students and coordinates academic programs",
+      "Represented institutions before Ethiopian courts and ministerial bodies",
+      "Fluent in English and Amharic",
     ],
   },
 ];
@@ -420,7 +450,7 @@ export default function OurTeamPage() {
                 <p className="text-sm text-[#2014FF] font-semibold mt-1">
                   {execMembers[0].role}
                 </p>
-                {/* <p className="text-[13px] text-[#504785] mt-2">{execMembers[0].edu}</p> */}
+                <p className="text-[13px] text-[#504785] mt-2">{execMembers[0].edu}</p>
               </div>
               <div className="text-right mt-2">
                 <span className="text-xs text-[#504785] italic">Click for more detail</span>
