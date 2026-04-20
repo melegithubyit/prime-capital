@@ -19,6 +19,7 @@ export type Member = {
   role: string;
   email?: string;
   education?: string[];
+  appointed?: boolean;
   exposure?: string[];
   qualifications?: string;
   occupation?: string;
@@ -100,6 +101,11 @@ export default function MemberModal({
                 {member.name}
               </h3>
               <p className="opacity-90">{member.role}</p>
+              {member.appointed && (
+                <p className="text-sm opacity-80 mt-1">
+                  (Appointed Representative)
+                </p>
+              )}
               <button
                 aria-label="Close"
                 className="absolute right-3 top-3 rounded-full p-2 hover:bg-white/10"

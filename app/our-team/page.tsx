@@ -153,6 +153,7 @@ const execMembers: MemberType[] = [
     name: "Habib Mohammed",
     role: "Chief Executive Officer",
     edu: "MBA in International Business, BA in Accounting, FCCA, CISI",
+    appointed:true,
     img: "/habib2.jpg",
     education: [
       "MBA in International Business — University of Greenwich (UK)",
@@ -174,6 +175,7 @@ const execMembers: MemberType[] = [
     name: "Haileleul Kassa",
     role: "Chief Risk and Compliance Officer",
     edu: "MSc in International Business, BA in Economics",
+    appointed:true,
     img: "/haile.jpg",
     education: [
       "MSc in International Business",
@@ -193,6 +195,7 @@ const execMembers: MemberType[] = [
     name: "Habtemariam Geta",
     role: "Head of Corporate Finance and Advisory",
     edu: "MBA in Project Management, BSc in Electrical Engineering",
+    appointed:true,
     img: "/habte-new.jpg",
     education: [
       "MSc in Accounting and Finance Addis Ababa University, Addis Ababa, Ethiopia | 10/2016 – 07/2018",
@@ -212,7 +215,8 @@ const execMembers: MemberType[] = [
     name: "Agazi Hailesilasse",
     role: "Securities Trader",
     edu: "Bachelors of art in Accounting and finance",
-    img: "/placeholder.png",
+    appointed:true,
+    img: "/agazi.jpg",
     education: [
       "Bachelors of art in Accounting and finance",
       "Bachelors of art in Management",
@@ -224,6 +228,64 @@ const execMembers: MemberType[] = [
       "Applying rigorous risk management techniques to quantify, monitor, and manage the risk associated with trading positions and adhere to firm policies.",
       "Maintaining detailed records of trades, analyzing performance, and reporting insights and results to management and the broader team.",
     ],
+  },
+{
+    name: "Yitages Tefera",
+    role: "Board Director & financial management professional",
+    edu: "Fellow of the Association of Chartered Certified Accountants (FCCA, UK)",
+    appointed:true,
+    img: "/yitages.jpg",
+    education: [
+      "Fellow of the Association of Chartered Certified Accountants (FCCA, UK)",
+      "Member of the Institute of Chartered Certified Accountants",
+    ],
+    exposure: [
+      "Over 10 years of experience in Auditing, Accounting, Risk management.",
+      "Professional expertise includeing Audit and assurance services, IFRS and IPSAS consulting, Financial statement preparation and analysis, Identifying business opportunities.",
+      "Leading audit engagements for business and non-profit clients, Ensuring compliance with international financial reporting standards and Ethiopian legal frameworks.",
+      "Financial oversight, Risk assessments, Advisory services.",
+    ],
+  },
+  {
+    name: "Getahun Worku",
+    role: "Board Director",
+    edu: "Bachelors of art in Accounting and finance",
+    appointed:true,
+    img: "/getahun.jpg",
+    education: [
+      "LLM in Human Rights",
+      "MBA in Governance and Development",
+      "Currently pursuing a PhD in Law",
+    ],
+    exposure: [
+      "Over 20 years of experience in Legal advisory, Compliance, Governance, and Academic instruction in Ethiopia.",
+      "Professional expertise including Contract law, Labor law, Procurement, Banking regulation, Donor agreements, Institutional governance frameworks.",
+      "Providing high-level legal counsel on grant agreements, Memoranda of understanding, Project design, Monitoring, and Regulatory compliance.",
+      "Previous roles include senior legal positions at NIB International Bank and the Commercial Bank of Ethiopia, as well as academic and advisory roles in higher education and legal organizations.",
+      "Licensed advocate and consultant before all Federal Courts of Ethiopia, and member of the Ethiopian Bar Association and Ethiopian Women Lawyers Association.",
+      "Strengthening organizational risk management, Regulatory compliance, and Corporate governance capacity through legal practice and advisory."
+    ],
+  },
+  {
+    name: "Hassen Mohammed Ali",
+    role: "Board Director & digital banking executive",
+    edu: "MBA in IT Management",
+    appointed:true,
+    img: "/placeholder.png",
+    education: [
+     "MBA in IT Management",
+    "MSc in Information Technology",
+    "BSc in Computer Science"
+    ],
+    exposure: [
+    "Over 20 years of experience in Digital transformation, Enterprise systems management, IT governance, and Financial technology innovation.",
+    "Led large-scale telecom and banking projects including ERP, BSS/OSS, CRM, Billing systems, and Digital financial services.",
+    "Strong focus on Sharia-compliant Islamic banking solutions and aligning IT strategy with business objectives.",
+    "Providing strategic leadership in retail banking growth, Digital channel expansion, and End-to-end digital transformation initiatives.",
+    "Experience managing multi-vendor environments, Implementing digital financial services, and Ensuring compliance with Sharia principles.",
+    "Previous leadership and technical roles at Hijra Bank and Ethio Telecom, including core banking, Mobile wallet platforms, Business intelligence systems, and Enterprise IT architecture projects.",
+    "Driving digital innovation, Operational resilience, and Technology governance frameworks."
+  ]
   },
 ];
 
@@ -370,30 +432,6 @@ export default function OurTeamPage() {
 
       {/* Executive Management */}
       <section className="py-20 px-6 md:px-12 bg-[#F9FAFB]">
-        <motion.div {...fadeInUp} className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Founding Members
-          </h2>
-          <p className="text-md text-[#504785] mt-2 max-w-2xl mx-auto">
-            Experienced leaders driving operational excellence and strategic
-            innovation.
-          </p>
-        </motion.div>
-
-        <motion.div
-          {...scaleIn}
-          className="max-w-5xl mx-auto mt-10 rounded-2xl overflow-hidden shadow-lg"
-        >
-          <Image
-            src="/team-photo.jpg"
-            alt="Executive Team"
-            width={1600}
-            height={600}
-            className="w-full h-auto object-cover"
-            priority
-          />
-        </motion.div>
-
         <div className="mt-40 text-center max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent">Executive Management</h2>
           <p className="text-md text-[#504785] mt-2 max-w-2xl mx-auto leading-tight">
