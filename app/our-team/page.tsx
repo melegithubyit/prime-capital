@@ -190,61 +190,39 @@ const execMembers: MemberType[] = [
     ],
   },
   {
-    name: "Yonas Alemayehu",
-    role: "Chief Technology Officer",
+    name: "Habtemariam Geta",
+    role: "Head of Corporate Finance and Advisory",
     edu: "MBA in Project Management, BSc in Electrical Engineering",
-    img: "/yonas.jpg",
+    img: "/habte-new.jpg",
     education: [
-      "MBA in Project Management — Columbia Southern University (USA)",
-      "BSc in Electrical Engineering — Mekelle University",
+      "MSc in Accounting and Finance Addis Ababa University, Addis Ababa, Ethiopia | 10/2016 – 07/2018",
+      "BA in Accounting and Finance Woldia University, Woldia,Ethiopia | 12/2012 – 07/2015",
     ],
     exposure: [
-      "Over 15 years in ICT and telecom platform development across Ethiopia and East Africa",
-      "Co-Founder and CEO of TelePort Technologies Plc; led design/delivery of large-scale digital/telecom systems",
-      "Key projects: WeCare (digital health platform), TMS (Telebirr Management System), VMS (Voucher Management System), ePAY (EVD platform) handling multi-billion ETB transactions",
-      "Expertise in Intelligent Network (IN) systems, digital service architecture, telecom billing, and enterprise SaaS",
-      "Leadership roles at Ericsson and Zain Telecom",
-      "Recognized for hands-on leadership in AI integration, financial systems, and real-time telecom architecture",
-      "Certifications from Ericsson Academy, Alibaba Business School, and Sun Microsystems",
+      "SENIOR FINANCIAL ANALYST- CAPITAL MARKET AND INVESTMENT BANK PROJECTAmhara Bank, Addis Ababa, Ethiopia | 10/2023 - Present",
+      "LECTURER OF ACCOUNTING AND FINANCE ST. MARY'S UNIVERSITY, ADDIS ABABA, ETHIOPIA | 02/2023 - 10/2023",
+      "LECTURER IN ACCOUNTING AND FINANCE WOLDIA UNIVERSITY, WOLDIA, ETHIOPIA | 07/2018 - 02/2023",
+      "INVESTMENT BANKING VIRTUAL REALITY INTERN AT CITI BANK CORPORATEI",
+      "NVESTMENT BANKING VIRTUAL SIMULATION JOB AT STANDARD BANK",
+      "INVESTMENT MANAGEMENT VIRTUAL JOB SIMULATION AT FIDELITY INTERNATIONAL",
+      "12-week MBA, Leadership program from Abilitie",
     ],
   },
   {
-    name: "Muluken Asrat",
-    role: "Chief Financial Officer",
-    edu: "BA in Accounting, Certificates in IFRS and financial reporting",
-    img: "/muluken.jpg",
+    name: "Agazi Hailesilasse",
+    role: "Securities Trader",
+    edu: "Bachelors of art in Accounting and finance",
+    img: "/placeholder.png",
     education: [
-      "BA in Accounting — Jimma University",
-      "Certificates in IFRS and financial reporting",
+      "Bachelors of art in Accounting and finance",
+      "Bachelors of art in Management",
     ],
     exposure: [
-      "Over 22 years in strategic finance, corporate planning, treasury management, ERP systems, and financial governance",
-      "CFO leading financial strategy, investment evaluation, and organizational transformation",
-      "Deputy CEO for Planning, Trade & Finance at Aleta Land Group (2017-2022); managed group-wide financial operations, investment planning, and corporate strategy",
-      "Senior finance roles at Aleta Land Group, OLAM International, and Ethiopian Roads Authority; led financial reporting, budgeting, and ERP implementation",
-      "Skilled in financial leadership, project finance, compliance, streamlining operations, and driving efficiency",
-    ],
-  },
-  {
-    name: "Getahun Worku",
-    role: "Legal Advisor",
-    edu: "LL.M. in Human Rights, LL.B., MBA in Governance and Development",
-    img: "/getahun.jpg",
-    education: [
-      "LL.M. in Human Rights",
-      "LL.B.",
-      "MBA in Governance and Development",
-      "PRINCE2 Project Management Certification",
-      "Currently pursuing a Ph.D. — Addis Ababa University",
-    ],
-    exposure: [
-      "Over 24 years in corporate law, arbitration, and legal advisory across Ethiopia's public, private, and development sectors",
-      "Chief Legal Advisor and Board Member; provides strategic legal guidance, governance oversight, and regulatory compliance",
-      "Senior roles including Legal Advisor and Assistant Manager at Korea International Cooperation Agency (KOICA); led contract negotiations, project management, and resource mobilization",
-      "Columnist for The Reporter Newspaper; authors weekly articles on legal and judicial matters",
-      "Law Instructor; mentors students and coordinates academic programs",
-      "Represented institutions before Ethiopian courts and ministerial bodies",
-      "Fluent in English and Amharic",
+      "Monitoring and analyzing local and global financial news, economic indicators, and market trends to identify potential trading opportunities",
+      "Designing, developing, and back testing innovative trading strategies (both discretionary and quantitative). Executing",
+      "Executing trades across multiple financial markets (stocks, bonds, & treasury bills.) using the firm's capital.",
+      "Applying rigorous risk management techniques to quantify, monitor, and manage the risk associated with trading positions and adhere to firm policies.",
+      "Maintaining detailed records of trades, analyzing performance, and reporting insights and results to management and the broader team.",
     ],
   },
 ];
@@ -461,7 +439,7 @@ export default function OurTeamPage() {
 
         <motion.div
           {...staggerContainer}
-          className="mt-10 grid gap-8 sm:grid-cols-1 md:grid-cols-4 max-w-7xl mx-auto"
+          className="mt-10 grid gap-8 sm:grid-cols-1 md:grid-cols-4 max-w-7xl mx-auto justify-center justify-items-center"
         >
           {execMembers.slice(1).map((m, i) => (
             <motion.div

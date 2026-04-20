@@ -42,7 +42,8 @@ export default function Contact() {
                 <span className="mt-1 text-[#2014FF]"><Clock size={20} /></span>
                 <div>
                   <div className="font-semibold text-[#0E0066]">Business Hours</div>
-                  <p className="text-sm text-[#504785]">Monday - Friday<br/>8:30 AM - 5:30 PM EAT</p>
+                  <p className="text-sm text-[#504785]">Monday - Friday<br/>8:00 AM - 5:00 PM EAT</p>
+                  <p className="text-sm text-[#504785]">Saturday<br/>8:00 AM - 12: 00 PM EAT</p>
                 </div>
               </li>
             </ul>
@@ -52,7 +53,7 @@ export default function Contact() {
           <div className="w-full h-[420px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
             <iframe
               title="Prime Capital Location"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=38.7468%2C9.0054%2C38.7578%2C9.0154&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=38.77,8.98,38.79,9.00&layer=mapnik&marker=8.991646,38.782494"
               className="w-full h-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

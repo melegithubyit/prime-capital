@@ -126,61 +126,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Company Statistics - Side by side, no cards */}
-      <section className="py-12 px-6 md:px-12">
-        <motion.div {...fadeInUp} className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-            {/* Paid-up Capital */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-center border-b-4 border-[#0E0066] pb-4"
-            >
-              <h3 className="text-xs md:text-sm uppercase tracking-wider font-semibold text-[#0E0066]/60 mb-3">
-                Paid-up Capital
-              </h3>
-              <p className="text-3xl md:text-4xl font-bold text-[#0E0066]">
-                ETB 25M
-              </p>
-            </motion.div>
-
-            {/* Subscribed Capital */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-center border-b-4 border-[#2014FF] pb-4"
-            >
-              <h3 className="text-xs md:text-sm uppercase tracking-wider font-semibold text-[#2014FF]/60 mb-3">
-                Subscribed Capital
-              </h3>
-              <p className="text-3xl md:text-4xl font-bold text-[#2014FF]">
-                ETB 32M
-              </p>
-            </motion.div>
-
-            {/* Callable Capital */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-center border-b-4 border-[#504785] pb-4"
-            >
-              <h3 className="text-xs md:text-sm uppercase tracking-wider font-semibold text-[#504785]/60 mb-3">
-                Callable Capital
-              </h3>
-              <p className="text-3xl md:text-4xl font-bold text-[#504785]">
-                ETB 7M
-              </p>
-            </motion.div>
-          </div>
-        </motion.div>
-      </section>
-
       {/* Vision & Mission */}
       <section className="py-8 px-6 md:px-12">
         <motion.div
@@ -316,9 +261,10 @@ export default function About() {
           </h2>
         </motion.div>
 
+{/*changing lg grids*/}
         <motion.div
           {...staggerContainer}
-          className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto"
+          className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto"
         >
           <motion.div
             variants={fadeInUp}
@@ -368,6 +314,24 @@ export default function About() {
             </h3>
             <p className="text-sm text-[#504785]">
               Manages compliance, risk, finance, and IT
+            </p>
+          </motion.div>
+
+          {/*adding internal comittes*/}
+          <motion.div
+            variants={fadeInUp}
+            whileHover={{ y: -4, scale: 1.02 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl hover:border-[#0E0066]"
+          >
+            <div className="mb-2 inline-flex items-center justify-center bg-[#2014FF]/10 text-[#2014FF] w-10 h-10 rounded-full">
+              <TrendingUp size={18} />
+            </div>
+            <h3 className="font-semibold text-[#0E0066]">
+              Internal Committees
+            </h3>
+            <p className="text-sm text-[#504785]">
+              Risk & Compliance, Nomination & Remuneration and Audit
             </p>
           </motion.div>
         </motion.div>

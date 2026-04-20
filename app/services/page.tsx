@@ -16,34 +16,14 @@ import {
 
 const services = [
   {
-    icon: <TrendingUp size={28} />,
-    title: "Investment Banking",
-    desc: "Comprehensive capital raising solutions including equity and debt financing, helping businesses secure the funding they need to grow and expand.",
-  },
-  {
-    icon: <Building2 size={28} />,
-    title: "Capital Markets Advisory",
-    desc: "Strategic guidance on market entry, IPOs, and securities offerings, leveraging deep market insights to optimize your capital structure.",
-  },
-  {
-    icon: <BriefcaseIcon size={28} />,
-    title: "Mergers & Acquisitions",
-    desc: "End-to-end M&A advisory services from target identification to deal closure, ensuring maximum value creation for all stakeholders.",
-  },
-  {
     icon: <FileTextIcon size={28} />,
-    title: "Corporate Restructuring",
-    desc: "Expert advisory on organizational restructuring, financial reorganization, and strategic repositioning to enhance business performance.",
-  },
-  {
-    icon: <Lightbulb size={28} />,
-    title: "Strategic Advisory",
-    desc: "Tailored strategic consulting services to help businesses navigate complex market dynamics and achieve sustainable growth.",
+    title: "Corporate Finance and Advisory ",
+    desc: "Transaction Advisory, IPO advisory and underwriting, Bond issuance, Private Placements, SME Advisory and Financing solutions, Mergers and Acquisitions (M&A), Corporate restructuring,and Sharia compliant solutions.  ",
   },
   {
     icon: <Target size={28} />,
-    title: "Valuation Services",
-    desc: "Comprehensive business and asset valuation services using industry-leading methodologies and market analysis.",
+    title: "Securities Trading",
+    desc: "Brokerage services, executing trades on behalf of clients. Our clients will have access to investment and trading on various securities, including, equities, treasury Bills, bonds, derivatives and other securities recognized by ECMA.",
   },
 ];
 
