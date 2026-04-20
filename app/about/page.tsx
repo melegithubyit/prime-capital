@@ -349,6 +349,10 @@ export default function About() {
             </div>
           </div>
         </motion.div>
+
+        <div className="mt-10 flex justify-center">
+          <img src='/organization.png'/>
+        </div>
       </section>
 
       <section className="py-4 pb-16 px-6 md:px-12 text-center">
