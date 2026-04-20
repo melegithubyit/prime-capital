@@ -26,7 +26,6 @@ const NewsPage = () => {
   const { data, isFetching, isError } = usePublishedNews({ page, limit, sortBy });
 
   const blogs = useMemo(() => data?.data.blogs ?? [], [data]);
-  console.log("Blogs data:", blogs);
   const pagination = data?.data.pagination;
 
   const formatDate = (iso?: string) => {
