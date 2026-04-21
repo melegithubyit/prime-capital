@@ -95,7 +95,7 @@ export default function About() {
   return (
     <main className="min-h-screen w-full bg-white text-gray-900 overflow-x-hidden">
       {/* Corporate Overview */}
-      <section className="pt-20 pb-12 px-6 md:px-12 overflow-x-hidden">
+      <section className="pt-20 pb-0 px-6 md:px-12 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.div {...fadeInLeft}>
             <h2 className="text-4xl md:text-5xl text-center font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -350,14 +350,14 @@ export default function About() {
           </div>
         </motion.div>
 
-        <div className="mt-10 flex justify-center">
-          <img src='/organization.png'/>
+        <div className="mt-1 flex justify-center">
+          <img src='/organization.png' className="max-h-[70rem] w-auto object-contain my-2"/>
         </div>
       </section>
 
-      <section className="py-4 pb-16 px-6 md:px-12 text-center">
+      <section className="pt-0 pb-16 px-6 md:px-12 text-center" style={{marginTop: '-1.5rem'}}>
         <motion.div {...fadeInUp}>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0E0066] my-4 mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0E0066] my-0 mb-2">
             Corporate Social Responsibility
           </h2>
         </motion.div>
