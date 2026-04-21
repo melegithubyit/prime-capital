@@ -15,25 +15,23 @@ export default function PrimeCapitalInfo() {
         <div className="flex-1 space-y-5">
           {/* Gradient Title */}
           <h1 className="text-3xl md:text-4xl font-bold leading-tight bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Ethiopia&apos;s First Dedicated <br />
-            Investment Banking <br />
+            Ethiopia&apos;s Dedicated Investment <br/> Banking
             Institution
           </h1>
 
           {/* Subtitle Paragraph 1 */}
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            Founded in 2016 E.C, Prime Capital S.C. stands as Ethiopia&apos;s first
-            dedicated investment banking institution — built on the pillars of{" "}
-            <strong>innovation, integrity, and excellence</strong> to shape the
-            nation&apos;s financial future.
+            Prime Capital S.C. is built on the pillars of innovation, integrity, and 
+            excellence shaping the future of Ethiopia’s <br/> financial ecosystem. 
+            We empower enterprises and investors with innovative, independent, and accessible investment banking solutions driving inclusive and sustainable economic growth.
           </p>
 
           {/* Subtitle Paragraph 2 */}
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+          {/* <p className="text-sm md:text-base text-gray-700 leading-relaxed">
             We empower Ethiopian enterprises and investors through innovative,
             independent, and accessible investment banking solutions that foster
             inclusive, sustainable economic growth.
-          </p>
+          </p> */}
         </div>
 
         <div className="flex-shrink-0 relative w-full md:w-[380px] lg:w-[400px] flex justify-center">
